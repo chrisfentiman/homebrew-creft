@@ -1,26 +1,26 @@
 class Creft < Formula
   desc "Executable skills for Agents"
   homepage "https://github.com/chrisfentiman/creft"
-  version "0.3.2"
+  version "0.3.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.2/creft-0.3.2-aarch64-apple-darwin.tar.gz"
-      sha256 "92a145db8422f9ad490f38a59e5c5e108ff1c5cb4b4f0155768597c0817799c4"
+      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.3/creft-0.3.3-aarch64-apple-darwin.tar.gz"
+      sha256 "4ab10e17f4e256d307515e50594af33e2ed28d7160185529fd5e5c533676d83e"
     else
-      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.2/creft-0.3.2-x86_64-apple-darwin.tar.gz"
-      sha256 "7e802d317b2d99c2760bd8b8d58f2054e1976032ec435b64b54414ff0fd75151"
+      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.3/creft-0.3.3-x86_64-apple-darwin.tar.gz"
+      sha256 "ac6fbcbaa3d2e35aec210431c934774833742efc401c15ac190f5bcb8d78c240"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.2/creft-0.3.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "68d073b45232f1c6596afe50581411a0f69b87935c36201f980a5c8b67287def"
+      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.3/creft-0.3.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3a6d157f3bcc06d1194aa1385206b858e067b0f8f85cfd78f9207811a7aee864"
     else
-      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.2/creft-0.3.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a612f5e81e5ebc30a345fb61aa13c81ac111488bcd77270a80832fed2a7afbf6"
+      url "https://github.com/chrisfentiman/creft/releases/download/creft-v0.3.3/creft-0.3.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5f649b45123778e500eee59afcad3ee51946071ee1ca3848ec1491ab3286516e"
     end
   end
 
